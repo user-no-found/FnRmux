@@ -1,0 +1,13 @@
+:root { --bg: #1e1e2e; --surface: #282a36; --text: #f8f8f2; --accent: #0ea5e9; --danger: #ef4444; --success: #22c55e; --border: #383a46; --hover: #363850; }
+[data-theme="light"] { --bg: #ffffff; --surface: #f1f5f9; --text: #1e293b; --accent: #0ea5e9; --border: #e2e8f0; --hover: #e2e8f0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+a { color: var(--accent); text-decoration: none; }
+button { cursor: pointer; border: none; border-radius: 6px; padding: 8px 16px; font-size: 14px; }
+input, select, textarea { background: var(--surface); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 8px 12px; font-size: 14px; width: 100%; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+.btn-primary { background: var(--accent); color: white; }
+.btn-primary:hover { opacity: 0.9; }
+.btn-danger { background: var(--danger); color: white; }
+.btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+.btn-ghost:hover { background: var(--hover); }
